@@ -7,7 +7,7 @@ function handleForm(event) {
   const userSelectionsArray = Array.from(userSelections);
 
   userSelectionsArray.forEach(function(element) {
-      const sortedArray = userSelectionsArray.sort((a, b) => 
+    const sortedArray = userSelectionsArray.sort((a, b) => 
     a.value.localeCompare(b.value));
     const li = document.createElement("li");
     li.append(element.value);
