@@ -39,9 +39,6 @@ window.onload = function() {
   suits.forEach(function(suit) {
     values.forEach(function(value) {
       deck.push(`${value} of ${suit}`);
-      // const li = document.createElement("li");
-      // li.append(value + " of " + suit);
-      // document.getElementById("deckList").append(li);
     });
     
   });
